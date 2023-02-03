@@ -12,3 +12,5 @@ botonesNumeros.forEach(boton => {
 botonesOperadores.forEach(boton => {
     boton.addEventListener('click', () => display.ejecutar(boton.value))
 });
+
+
